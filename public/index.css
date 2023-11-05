@@ -1,0 +1,83 @@
+body {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: justify;
+    font-weight: 70;
+    font-size: 10px;
+    line-height: 25px;
+}
+
+.App {
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
+    background: #23252C;
+}
+
+.Image {
+    position: absolute;
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.Body {
+    position: absolute;
+    width: 317px;
+    height: 399px;
+    left: 116px;
+    top: 361px;
+    background: #1A1B21;
+}
+
+.Body_Top {
+    text-align: center;
+    line-height: 15px;
+}
+
+.Body_Interests {
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 15px;
+}
+
+.Body_About {
+    padding-left: 10%;
+    padding-right: 10%;
+     line-height: 15px;
+}
+
+.Body_Interests > h1 {
+    text-align: left;    
+}
+
+.Body_About > h1 {
+    text-align: left;
+}
+
+.Body_Images {
+    height: 40px;
+    display: flex;
+    padding-left: 10%;  
+}
+
+.Footer {
+    position: absolute;
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;    
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.Footer_Images {    
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
